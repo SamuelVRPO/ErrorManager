@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		7DC8CDDD250BDD1200BE5892 /* assignment13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = assignment13; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC8CDE0250BDD1200BE5892 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7DC8CDE7250BDD3500BE5892 /* Bitacora.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bitacora.h; sourceTree = "<group>"; };
+		7DC8CDE8250BDD4E00BE5892 /* Hora.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hora.h; sourceTree = "<group>"; };
+		7DC8CDE9250BDD8400BE5892 /* bitacora.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitacora.txt; sourceTree = "<group>"; };
+		7DC8CDEA250BF3C500BE5892 /* salida.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = salida.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,11 @@
 		7DC8CDDF250BDD1200BE5892 /* assignment13 */ = {
 			isa = PBXGroup;
 			children = (
+				7DC8CDE9250BDD8400BE5892 /* bitacora.txt */,
+				7DC8CDE7250BDD3500BE5892 /* Bitacora.h */,
 				7DC8CDE0250BDD1200BE5892 /* main.cpp */,
+				7DC8CDE8250BDD4E00BE5892 /* Hora.h */,
+				7DC8CDEA250BF3C500BE5892 /* salida.txt */,
 			);
 			path = assignment13;
 			sourceTree = "<group>";
