@@ -158,21 +158,6 @@ void MergeSort(vector<Bitacora> &vec, vector<Bitacora> &aux, int ini, int fin) {
     }
 }
 
-/*
-void BubbleSort(vector<Bitacora> &vec, int n) {
-  Bitacora temp;
-  for(int i = 0; i < n-2; i++) {
-    for(int j = i+1; j < n-1; j++) {
-      if(vec[i]>vec[j]) {
-        temp = vec[i];
-        vec[i] = vec[j];
-        vec[j] = temp;
-      }
-    }
-  }
-}
-*/
-
 //Funcion Main
 int main() {
   //Establecer Las Variables
@@ -212,7 +197,6 @@ int main() {
   
   //Se Ordena La Información Por Fecha
   MergeSort(vBitacora,aux, 0, n-1);
-//    BubbleSort(vBitacora, n);
   //Se Obtiene El Mes De Inicio De La Busqueda
   do{
     cout << "Seleccione El Mes Donde Desea Iniciar Su Busqueda: ";
